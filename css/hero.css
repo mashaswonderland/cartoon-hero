@@ -6,7 +6,7 @@ body {
 }
 
 header{ 
- background-color: #0ED5EE ;
+ background-color: #1a247b ;
  text-align: center;
  padding-top:50px;
  padding-bottom: 50px;
@@ -15,41 +15,53 @@ header{
 header h1 {
 color: white;
 font-size: 50px;
-
  }
 
  header img { 
- 	border-radius: 170px;
+ 	border-radius: 600px;  /* not sure why the browser still doesn't display it like a cirlce */
  	width: 300px;
- 	border: 20px solid white;
+ 	border: 10px solid white;
  }
 
  main { 
  max-width: 800px;
  margin:0 auto;
  padding: 20px;
+ text-align: center;
  }
 
  main img { 
  	max-width: 100%;
  }
 
+
  h2 {
  font-size: 35px;
- color:;
+ color: #1a247b;
  margin: 40px 0 10px;
  }
 
-a{
- color:;
+ol { 
+list-style-position: inside;
+}
+
+ul { 
+list-style-type: none;
+}
+
+ 
+
+ul a {
+ color: #1a247b;
  }
-a : hover { 
- color:;
- background-color:;
+
+ul a:hover{ 
+ color: white;
+ background-color: #1a247b;
 }
 
 footer { 
-background-color: #0ED5EE ;
+background-color: #1a247b ;
  text-align: center;
  color: white;
  padding: 50px;
@@ -63,9 +75,10 @@ footer a {
  color: white;
 }
 
-footer a:hover{ 
- opacity: .5;
- background-color: transparent;
+footer a:hover { 
+ opacity: 5;
+ background-color: white;
+ color: #1a247b;
 }
 
 p.caption {

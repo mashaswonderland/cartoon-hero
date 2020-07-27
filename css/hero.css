@@ -12,18 +12,6 @@ header{
  padding-bottom: 50px;
 }
 
-div{ 
- width:320px; 
- height: 320px; 
- background: red; 
- border-radius: 160px; 
- margin: 0 auto; 
- border: white 10px solid; 
- box-sizing: border-box;
- background-image: url(img/moana-avatar.jpeg);
- background-size: cover;
- background-position: center center;
-}
 
 header h1 {
 color: white;
@@ -70,7 +58,7 @@ ul a {
 
 ul a:hover{ 
  color: white;
- background-color: #1a247b;
+ background-color: #10bfd0;
 }
 
 footer { 
